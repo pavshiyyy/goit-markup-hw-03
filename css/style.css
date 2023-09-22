@@ -30,18 +30,38 @@ ol {
   list-style: none;
 }
 
-.nav {
-  display: inline-flex;
+.container {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .header-li {
   display: flex;
+  gap: 24px;
   padding: 10px;
   margin: 10px;
   border-radius: 4px;
   text-decoration: none;
 
   background-color: #fff;
+}
+
+.adress-list {
+  display: flex;
+  gap: 14px;
 }
 
 .logo {
