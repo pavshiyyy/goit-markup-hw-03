@@ -68,8 +68,6 @@ img {
 .header-li {
   display: flex;
   gap: 40px;
-  padding: 10px;
-  margin: 10px;
   border-radius: 4px;
   text-decoration: none;
 
