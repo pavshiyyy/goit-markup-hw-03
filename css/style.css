@@ -332,6 +332,11 @@ img {
   letter-spacing: 0.02em;
 }
 
+.section-main {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
