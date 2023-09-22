@@ -183,9 +183,11 @@ img {
 
 .section-one {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .section-one-h {
+  max-width: 496px
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -194,6 +196,12 @@ img {
 }
 
 .section-one-button {
+  display: block;
+  min-width: 169px
+  height: 56px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
   background-color: #4d5ae5;
   font-family: Roboto, sans-serif;
   font-weight: 500;
