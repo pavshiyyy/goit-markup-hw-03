@@ -4,12 +4,44 @@ body {
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 :root {
   --brand-color: #fff;
 }
 
 .list {
   list-style: none;
+}
+
+.nav {
+  display: inline-flex;
+}
+
+.header-li {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+
+  background-color: #fff;
 }
 
 .logo {
