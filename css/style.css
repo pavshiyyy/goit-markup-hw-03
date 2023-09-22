@@ -76,7 +76,7 @@ img {
 
 .adress-list {
   display: flex;
-  gap: 14px;
+  gap: 40px;
   margin-right: 156px;
 }
 
@@ -221,6 +221,9 @@ img {
 }
 .section-two {
   padding: 120px 0;
+}
+
+.visually-hidden {
 }
 
 .section-two-list {
