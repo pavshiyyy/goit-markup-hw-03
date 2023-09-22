@@ -222,7 +222,17 @@ img {
 .section-two {
   padding: 120px 0;
 }
+
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-two-list-li {
+  width: calc((100% - 72px) / 4);
+}
 .section-two-h {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -236,12 +246,24 @@ img {
 }
 
 .section-three {
+  padding-bottom: 120px;
+}
+
+.section-three-h {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.section-three-list {
+  gap: 24px;
+}
+
+.section-three-list-li {
+  width: calc((100% - 48px) / 3);
 }
 
 .section-four {
