@@ -21,6 +21,9 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+img {
+  display: block;
+}
 
 :root {
   --brand-color: #fff;
@@ -30,27 +33,40 @@ ol {
   list-style: none;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .container {
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-nav {
   display: flex;
+  align-items: center;
+}
+
+.header-link {
+  margin-right: 76px;
 }
 
 .header-logo {
   display: flex;
   align-items: center;
   gap: 4px;
+  margin-left: 156px;
+  margin-right: 76px;
 }
 
 .header-li {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   padding: 10px;
   margin: 10px;
   border-radius: 4px;
@@ -62,6 +78,7 @@ ol {
 .adress-list {
   display: flex;
   gap: 14px;
+  margin-right: 156px;
 }
 
 .logo {
