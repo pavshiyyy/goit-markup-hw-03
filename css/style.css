@@ -68,7 +68,6 @@ img {
 
 .header-li {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
   border-radius: 4px;
   text-decoration: none;
@@ -92,6 +91,7 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-header {
