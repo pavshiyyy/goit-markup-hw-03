@@ -39,7 +39,8 @@ img {
 .container {
   width: 1158px;
   padding: 0 15px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .header-container {
   display: flex;
@@ -188,20 +189,22 @@ img {
 }
 
 .section-one {
-  display: flex
-  padding: 188px 0;;
+  display: flex;
   background-color: #2e2f42;
   padding: 188px 0;
 }
 
 .section-one-h {
+  display: flex;
   max-width: 496px;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    margin: 0 auto 48px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 0 auto 48px;
 }
 
 .section-one-button {
@@ -400,6 +403,7 @@ img {
 }
 
 .portfolio-p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
